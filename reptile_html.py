@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 # 引用BeautifulSoup库
 
-res_movies = requests.get('https://movie.douban.com/chart')
+res_movies = requests.get('https://www.zhihu.com/people/lisanshui1230/posts?page=1')
 # 获取数据
 bs_movies = BeautifulSoup(res_movies.text,'html.parser')
 # 解析数据
